@@ -3,6 +3,7 @@ import java.util.List;
 public class Banco {
 
     private String nome;
+    private String agencia = "0001";
     private List<Conta> contas;
 
     public String getNome() {
@@ -21,4 +22,7 @@ public class Banco {
         this.contas = contas;
     }
 
+    public String getAgencia() {
+        return agencia;
+    }
 }
